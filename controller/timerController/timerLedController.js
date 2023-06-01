@@ -1,4 +1,4 @@
-const commandData = require("../../../server/models/timerData/timerLedData");
+const commandData = require("../../models/timerData/timerLedData");
 
 exports.createTimerLed = (req, res) => {
   const { actuatorName, dayStart, hourStart, minuteStart, dayEnd, hourEnd, minuteEnd, status, commandId } = req.body;

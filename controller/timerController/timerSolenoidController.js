@@ -1,4 +1,4 @@
-const commandData = require("../../../server/models/timerData/timerSolenoidData");
+const commandData = require("../../models/timerData/timerSolenoidData");
 
 exports.createTimerSolenoid = (req, res) => {
     const { actuatorName, dayStart, hourStart, minuteStart, dayEnd, hourEnd, minuteEnd, status, commandId } = req.body;

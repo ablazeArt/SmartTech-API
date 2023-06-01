@@ -1,4 +1,4 @@
-const commandData = require("../../../server/models/timerData/timerBuzzerData");
+const commandData = require("../../models/timerData/timerBuzzerData");
 
 exports.createTimerBuzzer = (req, res) => {
   const { actuatorName, dayStart, hourStart, minuteStart, dayEnd, hourEnd, minuteEnd, status, commandId } = req.body;
