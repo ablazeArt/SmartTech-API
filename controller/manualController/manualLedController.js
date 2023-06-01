@@ -1,4 +1,4 @@
-const commandData = require("../../../server/models/manualData/manualLedData");
+const commandData = require("../../models/manualData/manualLedData");
 
 exports.createManualLed = (req, res) => {
     const { actuatorName, status, commandId } = req.body;

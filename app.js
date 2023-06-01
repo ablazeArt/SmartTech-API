@@ -573,7 +573,7 @@ app.post("/login", function (req, res) {
   res.redirect("/");
 });
 
-const port = process.env.PORT || 'https://SmartTech.onrender.com';
+const port = process.env.PORT || 7000;
 app.listen(port, () => {
   console.log(`Hello, Start server in port ${port}`);
 });

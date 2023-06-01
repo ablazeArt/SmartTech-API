@@ -1,4 +1,4 @@
-const commandData = require("../../../server/models/manualData/manualSolenoidData");
+const commandData = require("../../models/manualData/manualSolenoidData");
 
 exports.createManualSolenoid = (req, res) => {
     const { actuatorName, status, commandId } = req.body;

@@ -1,4 +1,4 @@
-const commandData = require("../../../server/models/manualData/manualBuzzerData");
+const commandData = require("../../models/manualData/manualBuzzerData");
 
 exports.createManualBuzzer = (req, res) => {
     const { actuatorName, status, commandId } = req.body;
