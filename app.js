@@ -573,7 +573,7 @@ app.put("/commandLightBuzzer/:commandId", modifyLightBuzzer);
 //   res.redirect("/");
 // });
 
-const port = 'https://smarttech-ldm5.onrender.com/';
+const port = process.env.PORT || 'https://smarttech-ldm5.onrender.com/';
 app.listen(port, () => {
   console.log(`Hello, Start server in port ${port}`);
 });
