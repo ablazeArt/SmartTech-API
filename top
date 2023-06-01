@@ -1,0 +1,9 @@
+//pinActuator
+//สร้างคำสั่ง
+app.post("/createPinActuator", createPinActuator);
+
+//ดึงคำสั่งมาแสดง
+app.get("/commandsPinActuator", getAllPinActuator);
+app.get("/commandPinActuator/:commandId", singlePinActuator);
+
+app.put("/commandPinActuator/:commandId", modifyPinActuator);
