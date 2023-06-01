@@ -70,7 +70,7 @@ app.use(
 
 //connect cloud database
 mongoose
-  .connect(process.env.DATABASE, {
+  .connect('mongodb+srv://Fuart:8zPOhzqyvOr8P6sx@final-project.kwefovi.mongodb.net/?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: false,
   })
